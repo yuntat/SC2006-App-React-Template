@@ -25,7 +25,7 @@ jobs:
 
       - name: npm install, build, and test
         run: |
-          npm install --legacy-peer-deps   # Using legacy-peer-deps to fix dependency conflicts
+          npm install --legacy-peer-deps  # Fixing dependency issue
           npm run build --if-present
           npm run test --if-present
       
